@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Manrope:wght@500&family=Roboto:wght@400;500&display=swap");
+body {
+  background: linear-gradient(to bottom, rgb(110, 2, 252), rgb(133, 8, 145));
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.header > h2,
+.header > h4 {
+  margin-top: -2%;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+ul > li {
+  margin-top: 5%;
+  margin-left: 1%;
+  font-size: 22px;
+  border: 2px solid white;
+  padding: 10%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: rgb(51, 6, 94);
+}
+ul > li > i {
+  margin-right: 3%;
+  font-size: 36px;
+}
+
+ul > li > a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+ul > li > a > i {
+  margin-right: 3%;
+  font-size: 36px;
+}
