@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Manrope:wght@500&family=Roboto:wght@400;500&display=swap");
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: rgb(106, 9, 162);
+  width: 100vw;
+  padding-left: 2%;
+}
+header > p {
+  margin-left: 5%;
+}
+.fa-bell {
+  margin-left: 50%;
+}
+.route {
+  background: linear-gradient(to right, rgb(110, 2, 252), rgb(133, 8, 145));
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 5%;
+}
+.map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timings {
+  display: flex;
+  justify-content: space-around;
+}
+
+.details {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
+  border-radius: 10px;
+  margin-top: 10%;
+  height: 45vh;
+  padding: 5%;
+}
+ul {
+  list-style: none;
+}
+ul > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -5%;
+}
+ul > li > p {
+  font-family: "Roboto", sans-serif;
+}
+.details > p {
+  font-family: "Roboto", sans-serif;
+
+  text-align: center;
+}
+.tcs_logo {
+  height: 10vh;
+  margin-top: 5%;
+  margin-left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
